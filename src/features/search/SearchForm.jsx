@@ -8,7 +8,7 @@ import { requestGoods } from '../goods/goodsThunks';
 import { resetSearch, setInfoEnabled, setNumber } from './searchSlice';
 import { searchBrands } from './searchThunks';
 
-const DEBOUNCE_MS = 500;
+const DEBOUNCE_MS = 800;
 
 export default function SearchForm() {
   const dispatch = useDispatch();
